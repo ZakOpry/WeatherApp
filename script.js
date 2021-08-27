@@ -6,7 +6,7 @@ const button = document.querySelector('.button')
 
 async function pressButton(){
 const input = document.querySelector('.input').value 
-const cityData = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${input}&units=imperial&appid=ff1cadec65d9f10c3aafc2a01b14612c`)
+const cityData = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${input}&units=imperial&appid=ff1cadec65d9f10c3aafc2a01b14612c`)
 const cityDataJson = await cityData.json()
 
 weatherDisplay.innerHTML = ""   
