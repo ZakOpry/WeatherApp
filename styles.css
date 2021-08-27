@@ -1,0 +1,62 @@
+h1 {
+    color: whitesmoke;
+    font-size: 75px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0;
+    background-color: rgb(79, 203, 251);
+    flex-direction: column;
+    
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+.button {
+    width: 100px;
+    color: whitesmoke;
+    background: transparent;
+    border: solid whitesmoke 2px;
+
+}
+
+.input {
+    border-radius: 15px;
+    border-color: whitesmoke;
+    border: solid 1px whitesmoke;
+    background: transparent;
+    margin-bottom: 15px;
+    
+}
+
+.yourWeather {
+    border-bottom: whitesmoke solid 3px;
+    margin-bottom: 30px;
+}
+
+.buttonDiv {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    border-bottom: solid whitesmoke 2px;
+}
